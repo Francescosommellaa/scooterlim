@@ -1,0 +1,64 @@
+body {
+    background-image: url(IMG/background.jpg);
+    background-size: 100%;
+}
+
+.background {
+    padding: 5%;
+    height: 50%;
+    width: 50%;
+    margin: 3% auto;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-radius: 16px;
+}
+
+header, nav {
+    text-align: center;
+}
+
+header>img {
+    width: 200px;
+}
+
+header>h1 {
+    color: #00DD00;
+}
+
+nav {
+    background-color: #00DD00;
+    border-radius: 2px;
+}
+
+nav>button {
+    margin: 5px;
+}
+
+h3,p,h6 {
+    color: antiquewhite;
+}
+
+section>h3 {
+    display: inline-block;
+}
+
+.statocarica {
+    border-radius: 8px;
+}
+
+.statocarica.uno {
+    width: 400px;
+    height: 20px;
+    background-color: yellow;
+}
+
+.statocarica.due {
+    width: 200px;
+    height: 20px;
+    background-color: rgb(255, 0, 0);
+}
+
+.statocarica.tre {
+    width: 800px;
+    height: 20px;
+    background-color: rgb(4, 148, 59);
+}
